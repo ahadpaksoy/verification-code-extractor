@@ -9,7 +9,7 @@ This Python script connects to a Gmail account via IMAP, retrieves the latest em
 - `email` (standard library)
 - `re` (standard library)
 
-**Note:** If using Gmail, you need to enable "Less secure app access" or use an app-specific password if two-factor authentication (2FA) is enabled.
+**Note:** If using Gmail use an app-specific password if two-factor authentication (2FA) is enabled if not do the 2FA it's good for you.
 
 ## Setup
 
