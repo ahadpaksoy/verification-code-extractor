@@ -24,6 +24,7 @@ def get_verification_code(email_address, email_password):
     for part in email_message.walk():
         if part.get_content_type() == "text/plain":
             body = part.get_payload(decode=True).decode()
+            # if your digits are different than 6, change the following code
             match = re.search(r'\b(\d{6})\b', body)
             if match:
                 verification_code = match.group(1)
