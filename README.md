@@ -1,6 +1,6 @@
 # Email Verification Code Extractor
 
-This Python script connects to a Gmail account via IMAP, retrieves the latest email from the inbox, and extracts a 6-digit verification code from the email's body. This is useful for automating processes that require verification codes sent via email.
+This Python script connects to a Gmail account via IMAP, retrieves the latest email from the inbox, and extracts a 6-digit (you can change it as you wish ofc) verification code from the email's body. This is useful for automating processes that require verification codes sent via email.
 
 ## Requirements
 
