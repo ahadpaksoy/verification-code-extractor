@@ -1,0 +1,4 @@
+selenium==4.11.2
+imaplib2==2.58
+email==6.0.0a1
+re==2.2.1
