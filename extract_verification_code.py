@@ -2,7 +2,7 @@ import imaplib
 import email
 import re
 
-# if you are using gmail you need to get a app password because gmail very strict about less secure apps.
+# if you are using gmail you need to get an app password because gmail very strict about less secure apps.
 # if you type here your real password gmail send authorization error.
 
 def get_verification_code(email_address, email_password):
