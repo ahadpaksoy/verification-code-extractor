@@ -34,8 +34,8 @@ def get_verification_code(email_address, email_password):
 
 
 def main():
-    mail = ""
-    password = ""
+    mail = "" # your mail address
+    password = "" # your password and don't forget to enable imap
 
     get_verification_code(mail, password)
 
